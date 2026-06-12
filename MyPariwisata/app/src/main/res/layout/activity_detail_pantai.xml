@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.DetailPantaiActivity">
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:id="@+id/tvNamaPantai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/tvNamaPantai"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imgPantai"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/imgPantai"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tvDeskripsiPantai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Namaasdasdasd"
+     />
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/tvDeskripsiPantai"
+        android:id="@+id/btnPeta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/btn_custom"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/show_map"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

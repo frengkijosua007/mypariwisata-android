@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">OceanTour</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="swipe_left_for_register">Swipe Left for Register</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="e_mail">Email</string>
+    <string name="tag_reg">Mari bergabung di OceanTour</string>
+    <string name="tag_login">Selamat datang di OceanTour</string>
+    <string name="click_to_register">Klik untuk mendaftar</string>
+    <string name="register">Daftar</string>
+    <string name="re_type_password">Ulangi Password</string>
+    <string name="your_name">Nama Lengkap</string>
+    <string name="show_map">Tampilkan Peta</string>
+    <string name="info">Info</string>
+    <string name="back">Kembali</string>
+    <string name="profile">Profil Pengguna</string>
+    <string name="name">Nama</string>
+</resources>

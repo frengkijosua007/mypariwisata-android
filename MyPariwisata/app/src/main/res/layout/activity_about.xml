@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.AboutActivity">
+
+    <TextView
+        android:layout_marginTop="60dp"
+        android:id="@+id/tvProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/tvProfile"
+        android:layout_marginTop="10dp"
+        android:id="@+id/lblNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/roboto_regular"
+        />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/lblNama"
+        android:layout_marginTop="5dp"
+        android:id="@+id/tvNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:fontFamily="@font/roboto_regular"
+        />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/tvNama"
+        android:layout_marginTop="30dp"
+        android:id="@+id/lblEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/e_mail"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/roboto_regular"
+        />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/lblEmail"
+        android:layout_marginTop="5dp"
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:fontFamily="@font/roboto_regular"
+        />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/btn_custom"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/back"
+        android:textColor="@android:color/white" />
+
+
+</RelativeLayout>
