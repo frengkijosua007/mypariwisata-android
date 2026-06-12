@@ -1,30 +1,37 @@
-Aplikasi Wisata Maritim (Kotlin)
+# MyPariwisata – Android Tourism App
 
-Deskripsi Proyek:
-Saya merancang dan mengembangkan aplikasi Wisata Bahari yang inovatif menggunakan Kotlin. Aplikasi ini dirancang untuk memberikan pengalaman wisata bahari yang lengkap dan interaktif kepada pengguna, dengan berbagai fitur yang memudahkan mereka untuk menjelajahi destinasi wisata bahari.
+## Indonesian Version
 
-Fitur Utama:
-- Halaman Informasi: Menyajikan informasi rinci tentang berbagai destinasi wisata bahari, termasuk sejarah, aktivitas, dan tips perjalanan.
-- Halaman Login: Mengamankan akses pengguna dengan autentikasi berbasis email dan password.
-- Halaman Peta: Integrasi peta interaktif untuk memandu pengguna ke tujuan yang mereka pilih.
-- Halaman Profil: Mengelola informasi pribadi dan preferensi pengguna.
-- Halaman Pendaftaran: Proses pendaftaran pengguna baru yang intuitif dan cepat.
-- Halaman Beranda: Pusat informasi dengan navigasi yang mudah untuk menjelajahi fitur-fitur aplikasi.
+MyPariwisata adalah aplikasi Android berbasis Kotlin yang menampilkan katalog destinasi wisata pantai. Project ini dibuat sebagai portfolio untuk menunjukkan kemampuan pengembangan Android native menggunakan XML layout, local database, dan arsitektur sederhana berbasis MVVM ringan.
 
-Desain UI/UX:
-- UI/UX Halaman Informasi: Antarmuka yang informatif dan menarik untuk memberikan pengalaman membaca yang menyenangkan.
-- Halaman Login UI/UX: Desain yang sederhana dan efisien untuk proses login yang cepat.
-- Halaman Pendaftaran UI/UX: Formulir pendaftaran yang mudah diisi dengan antarmuka yang bersih dan ramah pengguna.
-- Halaman Utama UI/UX: Desain interaktif yang memungkinkan pengguna untuk menjelajahi aplikasi dengan mudah.
+---
 
-Video Demo:
-Saya juga membuat video demo yang menunjukkan cara kerja aplikasi dan fitur-fiturnya, memberikan gambaran lengkap tentang fungsionalitas aplikasi.
+## Features
 
-Teknologi yang Digunakan:
-- Kotlin untuk pengembangan aplikasi Android yang kuat dan efisien.
-- Firebase untuk otentikasi pengguna dan manajemen data.
-- Google Maps API untuk integrasi peta interaktif.
-- Material Design untuk desain antarmuka yang modern dan responsif.
+- User Login & Registration menggunakan Room Database (local authentication)
+- Daftar destinasi wisata pantai
+- Search & filter destinasi
+- Detail destinasi wisata
+- Navigasi lokasi menggunakan Google Maps (external Intent)
+- Profil pengguna sederhana menggunakan Shared Preferences
 
-Pengalaman yang Diperoleh:
-Proyek ini memberikan saya pengalaman berharga dalam pengembangan aplikasi mobile end-to-end, termasuk desain UI/UX, pengembangan front-end dan back-end, dan integrasi API.
+---
+
+## Tech Stack
+
+- Kotlin
+- Android XML Layout
+- ViewBinding
+- Room Database
+- RecyclerView
+- MVVM (ViewModel + Repository sederhana)
+- Kotlin Coroutines
+- Material Design Components
+
+---
+
+## How to Run Project
+
+### Local Build (requires Android SDK)
+```bash
+./gradlew clean assembleDebug
