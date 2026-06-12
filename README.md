@@ -30,6 +30,23 @@ MyPariwisata adalah aplikasi Android berbasis Kotlin yang menampilkan katalog de
 
 ---
 
+## Project Status
+
+This project is a fully working Android portfolio application.
+
+- Build system: GitHub Actions
+- Architecture: MVVM (lightweight)
+- Database: Room (local storage)
+- UI: XML-based Android UI
+- Deployment: APK via GitHub Release
+
+## Demo Access
+
+- Source Code: GitHub Repository
+- APK Download: GitHub Releases
+- CI/CD Build: GitHub Actions
+
+
 ## How to Run Project
 
 ### Local Build (requires Android SDK)
